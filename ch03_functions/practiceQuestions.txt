@@ -8,19 +8,21 @@
     def something():
 
 4. What is the difference between a function and a function call?
-    a function is defined in a 'black box' of code, a function call calls taht defined block of code
+    a function is defined in a 'black box' of code, a function call calls that defined block of code
+    A function consists of the def statement and the code in its def clause. A function call is what moves the program execution into the function, and the function call evaluates to the function’s return value.
 
 5. How many global scopes are there in a Python program? How many local scopes?
     one global scope, many local scopes
+    There is one global scope, and a local scope is created whenever a function is called.
 
 6. What happens to variables in a local scope when the function call returns?
     it is eliminated after it is called
-
+    When a function returns, the local scope is destroyed, and all the variables in it are forgotten.
 7. What is a return value? Can a return value be part of an expression?
     a return value is an evaluation of a function call. yes it can be part of an expression
 
 8. If a function does not have a return statement, what is the return value of a call to that function?
-    blank
+    None
 
 9. How can you force a variable in a function to refer to the global variable?
     by passing the global variable to the function
