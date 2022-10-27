@@ -2,28 +2,33 @@
     True or False
 
 2. What are the three Boolean operators?
-    = > <
+    and, or, and not
 
 3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
-    True or False   = False
+    True or False   = True*
     True or True    = True
-    False or False  = False
+    False or False  = False **
+    False or True   = True ** 
     True and True   = True
+    True and False  = False **
     False and True  = False
+    Flase and False = Flase **
+    not True        = False **
+    not False       = True **
 
 4. What do the following exporessions evaluate to?
     (5 > 4) and (3 == 5)
         True and False = False
     not (5 > 4)
-        not False = True
+        not False = Flase *
     (5 > 4) or (3 == 5)
-        True or Flase = False
+        True or Flase = True *
     not ((5 > 4) or (3 == 5))
         not (True or False) = False
     (True and True) and (True == False)
-        True
+        Flase
     (not False) or (not True)
-        False
+        True
 
 5. What are the six comparison operators?
     >, <, ==, >=, <=, ==
@@ -71,12 +76,12 @@ else:
 13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
     #for loop
     i = 1
-    for i in range(10):
-        print(i + 1)
+    for i in range(1,11):
+        print(i)
     
     #while loop
     i = 1
-    while i < 10:
+    while i <= 10:
         print(i)
         i = i + 1
 

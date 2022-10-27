@@ -3,7 +3,8 @@
     values      = -88.8, 5
 
 2. Which of the following is a variable, and which is a string?
-    'spam'
+    variable = spam
+    variable = 'spam'
 
 3. Name three data types.
     Integer, floating-point, string
