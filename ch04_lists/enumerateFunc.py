@@ -1,0 +1,11 @@
+# enumerate(), this is the same as range(len(someList))
+
+supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
+for i in range(len(supplies)):
+    print('Index ' + str(i) + ' in supplies is: ' + supplies[i])
+
+supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
+for index, item in enumerate(supplies):
+    print('Index ' + str(index) + ' in supplies is: ' + item)
+
+# stopped at Adding Values to Lists with the append() and insert() Methods
