@@ -45,4 +45,9 @@ print(grid[0][4], grid[1][4], grid[2][4], grid[3][4], grid[4][4], grid[5][3], gr
 print(grid[0][5], grid[1][5], grid[2][5], grid[3][5], grid[4][5], grid[5][5], grid[6][5], grid[7][5], grid[8][5])
 print('\n')
 
-print(len(grid))
+for x in range(6):
+    for y in range(9):
+        if y < 8:
+            print(grid[y][x], end='')
+        else:
+            print(grid[y][x])
